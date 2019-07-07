@@ -959,7 +959,30 @@
 </head>
 
 <body>
+<style>
+    .block {
+    text-align: center;
+    padding: 30vh;
+    color: white;
+    background-color: black;
+    animation: hide  1s ease-in-out;
+    visibility: hidden;
+}
+@keyframes hide {
+  from {
+   opacity:1;
+   visibility: visible;
+  }
+  to {
+    opacity:0;
+    visibility: hidden;
+  }
+}
+    </style>
 
+<div class="block">
+<h1 class="hpb">Happy BirthDay</h1>
+</div>
   
 <div class="gallery galleryz" itemscope="" itemtype="http://schema.org/ImageGallery">
   <figure class="gallery-item vertical" itemprop="associatedMedia" itemscope="" itemtype="https://schema.org/ImageObject"><a href="images/1-1200X2400.jpg" itemprop="contentUrl" data-size="1200x2400"><img class="lazyload fadein" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http://www.w3.org/2000/svg'%20viewBox%3D'0%200%20600%201200'%20%2F%3E" data-src="images/1-600X1200.jpg" itemprop="thumbnail" alt="Image description"/></a>
