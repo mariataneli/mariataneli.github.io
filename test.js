@@ -1,6 +1,7 @@
 (function() {
   var initPhotoSwipeFromDOM;
 
+  
   initPhotoSwipeFromDOM = function(gallerySelector) {
     var closest, galleryElements, hashData, i, l, onThumbnailsClick, openPhotoSwipe, parseThumbnailElements, photoswipeParseHash;
     // parse slide data (url, title, size ...) from DOM elements 
