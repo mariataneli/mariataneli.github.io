@@ -1,6 +1,5 @@
 (function() {
   var initPhotoSwipeFromDOM;
-
   
   initPhotoSwipeFromDOM = function(gallerySelector) {
     var closest, galleryElements, hashData, i, l, onThumbnailsClick, openPhotoSwipe, parseThumbnailElements, photoswipeParseHash;
